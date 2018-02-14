@@ -1,0 +1,9 @@
+hosts: sudotest
+gather_facts: true
+
+task:
+  - name: sudo into oracle user from ntid
+    shell: echo "hi"
+    become: true
+    become_user: oracle
+    become_method: sudo
