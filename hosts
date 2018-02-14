@@ -1,0 +1,8 @@
+[localhost]
+127.0.0.1
+
+[oracletest]
+wautdb-po-1p.sys.comcast.net ansible_ssh_user=oracle
+
+[sudotest]
+xccdb-ch2-1s.sys.comcast.net ansible_ssh_user=vmuthu153
